@@ -1,0 +1,206 @@
+
+
+.header{
+ 
+  
+  min-height: 20vh;
+  font-family: 'Zen Dots', cursive;
+  color:white;
+  -webkit-text-stroke: 1px black;
+  
+}
+.header .navbar {
+  background-color: transparent !important;
+}
+
+
+.boton{
+  
+  background-color:rgb(16, 146, 163);
+  font-family: 'Righteous', cursive;
+}
+.carruselarea{
+  width: 25%;
+}
+.carruselfondo{
+  background-color: #e7f1ff;
+}
+.garantia{
+  background-color: #e7f1ff;
+  color: black;
+  font-family: 'Righteous', cursive;
+}
+.mapa{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.garantiafondo{
+  font-family: 'Righteous', cursive;
+}
+.imgarantia{
+  border: 2px solid rgb(16, 146, 163);
+}
+
+@media only screen and (min-width: 1200px){
+  body{
+    background-image: url(imagenes/fondox.webp);
+    background-repeat: no-repeat;
+  }
+
+  #logo{
+    width: 5.5%;  
+    border: 2px solid rgb(16, 146, 163);
+  }
+  .redes{
+    width: 60%;
+  }
+  footer{
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:black;
+    font-family: 'Zen Dots', cursive;
+    color:antiquewhite;
+    position:fixed;
+    bottom: 0px;
+    width: 100vw;
+    
+  }
+  .mapa{
+    width: 400px;
+    height: 300px;
+  }
+  .logogrande{
+    width: 15%;
+    padding-top: 2%;
+    
+    
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px){
+  body{
+    background-image: url(imagenes/fondoalt2.webp);
+    background-repeat:no-repeat;
+  }
+  #logo{
+    width: 10%;  
+    border: 2px solid rgb(16, 146, 163);
+  }
+  .redes{
+    width: 70%;
+  }
+  .logogrande{
+    width: 30%;
+    padding-top: 5%;
+  }
+  footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:black;
+    font-family: 'Zen Dots', cursive;
+    color:antiquewhite;
+    position:absolute;
+    bottom: 0px;
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px){
+  body{
+    background-image: url(imagenes/fondoalt2.webp);
+    background-repeat: no-repeat;
+  }
+  #logo{
+    width: 5.5%;  
+    border: 2px solid rgb(16, 146, 163);
+  }
+  .redes{
+    width: 50%;
+  }
+  .logogrande{
+    width: 50%;
+    padding-top: 10%;
+  }
+  footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:black;
+    font-family: 'Zen Dots', cursive;
+    color:antiquewhite;
+    position:fixed;
+    bottom: 0px;
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+  body{
+    background-image: url(imagenes/f3.png);
+    background-repeat: no-repeat;
+  }
+  #logo{
+    width: 8%;  
+    border: 2px solid rgb(16, 146, 163);
+  }
+  .redes{
+    width: 50%;
+  }
+  .logogrande{
+    width:60%;
+    padding-top: 20%;
+  }
+  footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:black;
+    font-family: 'Zen Dots', cursive;
+    color:antiquewhite;
+    position:absolute;
+    bottom: 0px;
+    width: 100vw;
+  }
+  .textonav{
+    font-size:14pt;
+  }
+  
+}
+
+@media only screen and (max-width: 479px){
+  body{
+    background-image: url(imagenes/f3.png);
+    background-repeat: no-repeat;
+    
+    
+  }
+  #logo{
+    width: 10%;  
+    border: 2px solid rgb(16, 146, 163);
+  }
+  .redes{
+    width: 30%;
+  }
+  .logogrande{
+    width: 40%;
+    padding-top: 30%;
+  }
+  footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:black;
+    font-family: 'Zen Dots', cursive;
+    color:antiquewhite;
+    position:fixed;
+    bottom: 0px;
+
+    width: 100vw;
+    font-size: 15pt;
+  }
+  .textonav{
+    font-size:13px;
+  }
+  .mapa{
+    width: 200px;
+    height: 200px;
+  }
+}
